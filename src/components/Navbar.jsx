@@ -63,7 +63,7 @@ const Navbar = () => {
       setCurrImageIndex(nextIndex);
 
       setNewMugStyles({
-        height: "100%",
+        height: "90%",
         position: "absolute",
         top: "100%",
         right: "0",
@@ -86,8 +86,8 @@ const Navbar = () => {
         });
 
         setIsDragging(false);
-      }, 300);
-    }, 500);
+      }, 100);
+    }, 200);
   };
 
   return (
@@ -139,8 +139,8 @@ const Navbar = () => {
           src={Logo}
           alt=""
           className="z-7 absolute top-40 left-96 h-[50%] mix-blend-multiply "
-        /> */}
-        {/* <h1 className="z-7 absolute top-[440px] left-80 text-blue-300 text-4xl font-bold tracking-wide ">
+        />
+        <h1 className="z-7 absolute top-[440px] left-80 text-blue-300 text-4xl font-bold tracking-wide ">
           This is a random text to test
         </h1> */}
       </div>
